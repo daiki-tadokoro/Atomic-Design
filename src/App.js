@@ -1,5 +1,6 @@
 import { PrimaryButton } from "./components/atoms/button/PrimaryButton";
 import { SecondaryButton } from "./components/atoms/button/SecondaryButton";
+import { SerchInput } from "./components/molecules/SerchInput";
 import "./styles.css";
 
 export default function App() {
@@ -8,6 +9,8 @@ export default function App() {
       <PrimaryButton>テスト</PrimaryButton>
       <br />
       <SecondaryButton>テスト2</SecondaryButton>
+      <br />
+      <SerchInput />
     </div>
   );
 }
